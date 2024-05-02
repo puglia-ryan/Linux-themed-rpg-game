@@ -31,7 +31,7 @@ public class Player extends Entity {
     this.maxHp = hp;
     this.level = (level > 0) ? level : 1;
     this.exp = 0;
-    this.expCapacity = 100;
+    this.expCapacity = 50;
     this.projectileAmmo = 10;
     this.keyCount = 0;
     this.hasEgg = false;
