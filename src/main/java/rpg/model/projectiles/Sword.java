@@ -37,7 +37,7 @@ public class Sword extends Projectile {
     loadImages(map.getTileSize() / 2);
     this.isPlayerProjectile = isPlayerProjectile;
     this.distanceTravelled = 0;
-    this.maxDistance = 1;
+    this.maxDistance = 2;
     setCurrentImage(sprites.get(getDirection()));
   }
 
