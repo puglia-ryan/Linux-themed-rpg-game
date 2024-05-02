@@ -8,20 +8,20 @@ To compile, run `mvn compile` and to execute, run `mvn javafx:run -q`.
 
 # Contributions of each member:
 
-- MEIRELES Steve
+- STEVE
 	- Animations
 	- Sprite design
 	- Enemy classes
 	- Projectiles
 
-- PUGLIA Ryan
+- RYAN
 	- Event handling
 	- Collisions
 	- Enemy classes
 	- Projectiles
 	- UI (View class)
 
-- SCHWEITZER Paul
+- PAUL
 	- Map layout 
 	- Tiles (enum)
 	- Items and its subclasses
