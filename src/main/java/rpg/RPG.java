@@ -34,7 +34,7 @@ public class RPG extends Application {
 
     // Set up the entities and the map
     Map currentMap = new Map(MapLayout.WORLD[0][0], MapLayout.LOCK);
-    Player player = new Player(100, 10, 2, 2, 0.1, 1);
+    Player player = new Player(100, 20, 2, 2, 0.1, 1);
     player.loadImages(currentMap.getTileSize());
 
     StackPane root = new StackPane();
